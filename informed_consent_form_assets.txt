@@ -1,0 +1,28 @@
+consent_name_video!==''
+
+consent_check_group_1 == 1 then true
+consent_check_group_1 == 2 then false
+	if false then quit
+
+consent_name_signature! ==''
+
+consent_name_signature!==''
+
+
+datepicker==something
+
+consent_explained
+
+consent_explained2
+
++
+<aside>
+    <h4>@todo</h4>
+    <p>p tags in the form.</p>
+    <p>format form and bold and so forth</p>
+    <p>move continue to center</p>
+    <p>...timestamps....</p>
+        <p>...error handling for form fields....</p>
+
+  </aside>
+  

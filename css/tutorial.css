@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+label									{ font-size:90%; display:block; float:left; width:10em; text-align:right;
+												margin:.2em .2em 0 0; color:#ffd; font-weight:bold;padding:8px 0px; }
+label.error           { font-weight:normal;color:red;text-align:left;width:140px; padding-left:25px;
+                        background: transparent url(/images/cancel.png) no-repeat scroll left; }
+input.text-input			{ margin:4px;padding:2px 0;color:#333; }
+
+input.button:hover		{ background:#009FAA none repeat scroll 0% 0%; color:white; }
+#message							{ width:180px;margin:60px 0 0 100px; }
+#message h2						{ font-size:150%;color:white; }
+#message p						{ color:white;font-weight:bold;margin:6px 0px; }

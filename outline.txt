@@ -1,0 +1,65 @@
+Outline for Indexing Works of Art
+
+-------------------------------
+Files
+-------------------------------
+config.php
+helpers.php
+
+Make sure your cookies are cleared before starting another test, in beta Until I can integrate it in the app....and if they don't have cookies enabled, they need to.
+
+
+For Users:
+Welcome page will only show once. Otherwise defaults back to index. 
+
+https login
+Participants Login:
+Participants password:
+
+
+
+
+For Admins (Researchers)
+
+https login
+Admin Login
+Admin Password
+
+You can find the administrative dashboard at:
+
+Admin Login (administrative dashboard)
+Admin Password
+
+image gallery
+<a href="picture.php?/919/category/6">Slide001</a>
+http://imagegallery.lesliegruen.com/upload/2012/10/07/20121007204729-37d36b69.jpg
+
+
+
+
+Pear Modules:
+quickform
+
+To check Pear is installed and working go to 
+/scripts/check_pear.php
+output should be:bool(true)
+if bool(false)
+or
+
+Warning: require_once(System.php): failed to open stream:
+ No such file or directory in /path/to/check_pear.php on line 2
+   
+means that your include path is not correct. (So go and fix it!)
+
+A completely white page in your browser hints two things:
+
+Your server is configured to not display any errors to the user/browser (display_errors Off)
+
+There was an error including System.php, and you should check you server's error log.
+then it is not installed/working
+
+
+
+
+
+

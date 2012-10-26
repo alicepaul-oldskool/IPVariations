@@ -1,0 +1,26 @@
+<script type="text/javascript">
+
+/***********************************************
+* Email Validation script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice must stay intact for legal use.
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var emailfilter=/^\w+[\+\.\w-]*@([\w-]+\.)*\w+[\w-]*\.([a-z]{2,4}|\d+)$/i
+
+function checkmail(e){
+var returnval=emailfilter.test(e.value)
+if (returnval==false){
+alert("Please enter a valid email address.")
+e.select()
+}
+return returnval
+}
+
+</script>
+/* (html)
+<form>
+<input name="myemail" type="text" style="width: 270px"> <input type="submit" onClick="return checkmail(this.form.myemail)" value="Submit" />
+
+</form>
+*/

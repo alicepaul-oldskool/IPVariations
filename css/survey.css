@@ -1,0 +1,233 @@
+body
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+}
+
+h3
+{
+	font-size:24px;
+	text-align:center;
+}
+
+.center
+{
+	text-align:center;
+}
+.bold_text
+{
+	font-weight:bold;
+}
+
+#content
+{
+	width: 950px;
+	font-size: 16px;
+	margin-left: 100px;
+	-webkit-transition: all 0s ease-in 5s;
+	-moz-transition: all 0s ease-in 5s;
+	-ms-transition: all 0s ease-in 5s;
+	-o-transition: all 0s ease-in 5s;
+	transition: all 0s ease-in 5s;
+	
+}
+
+button.surveybutton
+{
+   width:13.8%;
+   height:50px;
+}
+.consent_box
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 1000px;
+	margin: auto;
+	height: 500px;
+	border: 2px solid #666;
+	overflow: scroll;
+	padding:5px;
+	
+}
+#survey {
+	padding-left: 5px;
+}
+#controls_and_anchors{
+	position: absolute;
+	top: 175px;
+	width: 500;
+}
+#controls {
+  position:relative;
+}
+#anchors {
+  height:auto;
+  margin-bottom:60px;
+}
+#anchor_left {
+  float:left;
+}
+#anchor_right {
+  float:right;
+}
+#quit{
+  float:right;
+  margin-top:100px;
+  clear:both;
+}
+#lower {
+  clear:both;
+}.container .content {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 30px;
+}
+.container #content h3 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 2px;
+}
+.container #content {
+	width: 950px;
+	text-align: left;
+	font-weight: bold;
+}
+
+label
+{
+	padding-left: 20px;
+}
+
+.footer
+{
+	padding-left: 5px;
+	padding-bottom: 5px;
+	text-align: left;
+	padding-top: 10px;
+	margin-right:200px;
+}
+.center {
+	text-align: center;
+	float: right;
+	margin-top: auto;
+	margin-right: 350px;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.continue {
+	display: inline;
+}
+.bold_text {
+	font-weight: bolder;
+	font-size: 18px;
+}
+#content section p {
+	text-align: center;
+}
+.bold-text-big-font
+{
+	font-weight: bolder;
+	font-stretch: expanded;
+	font-size: 18px;
+	margin-left: 100px;
+}
+
+table {
+	border-width: 0px;
+	border-spacing: 2px;
+	border-style: none;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+table th {
+	border-width: 0px;
+	padding: 1px;
+	border-style: none;
+	border-color: gray;
+	background-color: white;
+	-moz-border-radius:3px ;
+}
+table td {
+	border-width: 0px;
+	padding: 1px;
+	border-style: none;
+	border-color: gray;
+	background-color: white;
+
+
+	-moz-border-radius: ;
+	vertical-align: text-top;
+	text-align: justify;
+}
+
+input
+{
+color:#000;
+background:#FF9;
+
+}
+.changedField
+{
+background:#000;
+color:#CCC;
+  opacity: .7;
+
+}
+.currentField
+{
+background:#CCC;
+color:#333;
+}
+#submit {
+	float: right;
+	-webkit-transition: all 0s ease-in 10s;
+	-moz-transition: all 0s ease-in 10s;
+	-ms-transition: all 0s ease-in 10s;
+	-o-transition: all 0s ease-in 10s;
+	transition: all 0s ease-in 10s;
+	margin-right: 10px;
+}
+.underline-big {
+	text-decoration: underline;
+	font-size:16px;
+}
+#font_medium {
+	font-size: 16px;
+}
+.next
+{
+	float:right;
+	margin-right:300px;
+	-webkit-transition: all 0s ease-in 5s;
+	-moz-transition: all 0s ease-in 5s;
+	-ms-transition: all 0s ease-in 5s;
+	-o-transition: all 0s ease-in 5s;
+	transition: all 0s ease-in 5s;
+	}
+.margin-top
+{
+	margin-top:30px;
+}#content #survey table {
+	;
+	width: 100%;
+	margin-left: 100px;
+}
+
+.completed
+{
+	margin-left:300px;
+}
+.form-labels {
+	font-size: 14px;
+}
+p #consent-radios_0 {
+	color: #FFF;
+	background-color: #FFF;
+}

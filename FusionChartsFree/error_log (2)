@@ -1,0 +1,45 @@
+[23-Oct-2012 06:36:25] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/http.so' - /usr/php/53/usr/lib64/php/modules/http.so: undefined symbol: zend_ini_string_ex in Unknown on line 0
+[23-Oct-2012 06:36:25] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[23-Oct-2012 06:36:25] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[23-Oct-2012 06:36:25] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[23-Oct-2012 06:36:25] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/oauth.so' - /usr/php/53/usr/lib64/php/modules/oauth.so: undefined symbol: gc_remove_zval_from_buffer in Unknown on line 0
+[23-Oct-2012 06:36:25] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/oci8.so' - /usr/php/53/usr/lib64/php/modules/oci8.so: undefined symbol: gc_remove_zval_from_buffer in Unknown on line 0
+[23-Oct-2012 06:36:25] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/uploadprogress.so' - /usr/php/53/usr/lib64/php/modules/uploadprogress.so: undefined symbol: zend_ini_string_ex in Unknown on line 0
+[23-Oct-2012 07:06:19] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/http.so' - /usr/php/53/usr/lib64/php/modules/http.so: undefined symbol: zend_ini_string_ex in Unknown on line 0
+[23-Oct-2012 07:06:20] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[23-Oct-2012 07:06:20] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[23-Oct-2012 07:06:20] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[23-Oct-2012 07:06:20] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/oauth.so' - /usr/php/53/usr/lib64/php/modules/oauth.so: undefined symbol: gc_remove_zval_from_buffer in Unknown on line 0
+[23-Oct-2012 07:06:20] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/oci8.so' - /usr/php/53/usr/lib64/php/modules/oci8.so: undefined symbol: gc_remove_zval_from_buffer in Unknown on line 0
+[23-Oct-2012 07:06:20] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/uploadprogress.so' - /usr/php/53/usr/lib64/php/modules/uploadprogress.so: undefined symbol: zend_ini_string_ex in Unknown on line 0
+[23-Oct-2012 08:01:03] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/http.so' - /usr/php/53/usr/lib64/php/modules/http.so: undefined symbol: zend_ini_string_ex in Unknown on line 0
+[23-Oct-2012 08:01:03] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/imagick.so' - /usr/php/53/usr/lib64/php/modules/imagick.so: undefined symbol: zend_replace_error_handling in Unknown on line 0
+[23-Oct-2012 08:01:03] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[23-Oct-2012 08:01:03] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20090626, debug=0, thread-safety=0
+PHP    compiled with module API=20060613, debug=0, thread-safety=0
+These options need to match
+ in Unknown on line 0
+[23-Oct-2012 08:01:03] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/oauth.so' - /usr/php/53/usr/lib64/php/modules/oauth.so: undefined symbol: gc_remove_zval_from_buffer in Unknown on line 0
+[23-Oct-2012 08:01:03] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/oci8.so' - /usr/php/53/usr/lib64/php/modules/oci8.so: undefined symbol: gc_remove_zval_from_buffer in Unknown on line 0
+[23-Oct-2012 08:01:03] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/php/53/usr/lib64/php/modules/uploadprogress.so' - /usr/php/53/usr/lib64/php/modules/uploadprogress.so: undefined symbol: zend_ini_string_ex in Unknown on line 0

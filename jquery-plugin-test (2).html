@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="css/survey.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+
+<div id="form">
+  <div class="row">
+    <input data-validate-presence="true" data-validate-error="#validation1" type="text">
+    <div class="error" id="validation1">Username cannot be blank!</div>
+  </div>
+  <div class="row">
+    <input data-validate-presence="true" data-validate-error="#validation2" data-validate-format="/^[0-9]+$/" type="password">
+    <div class="error" id="validation2">Password should be just Numbers!</div>
+  </div>
+  <div class="row">Login as 
+    <input name="type" value="user" data-validate-checked="true" data-validate-error="#validation3" type="radio"> Admin
+    <input name="type" value="admin" data-validate-checked="true" data-validate-error="#validation3" type="radio"> User
+    <div class="error" id="validation3">Please Choose an user account!</div>
+  </div>
+  <div class="row"><button data-validate="#form">Login</button>
+  </div>
+</div>
+</body>
+</html>

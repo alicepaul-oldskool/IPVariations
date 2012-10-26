@@ -1,0 +1,11 @@
+Tools suggested to utilize
+
+Filezilla-Free FTP
+	For transferring file images to server
+
+Excell or openofficeCalc
+	Use this to go to html image directory
+
+Dreamweaver and/or Eclipse or Netbeans
+
+use Google apis to include for JQuery-this will keep it up to date.

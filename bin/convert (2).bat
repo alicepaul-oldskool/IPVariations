@@ -1,0 +1,1 @@
+nconvert -rtype linear -rflag decr -resize 320 240  
