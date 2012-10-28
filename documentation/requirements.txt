@@ -1,7 +1,0 @@
-REQUIREMENTS
-
-JQUERY
-APACHE
-PHP 5+
-MYSQL 
-Cookies on and also clean
