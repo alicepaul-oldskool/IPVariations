@@ -5,7 +5,14 @@
 */
 session_start();
 include('./scripts/getDate.php');
+//include('queries.php');
+
+
 ?>
+<?php
+/* if( isset($_POST['fname']) && isset($_POST['lname'] ) && isset($_POST['gender']) && isset($_POST['birthdate']) && isset($_POST['gender']) )
+{
+?>*/?>
 <!doctype html>
 <html><head>
 <title>Informed Consent</title>
@@ -22,6 +29,25 @@ include('./scripts/getDate.php');
    });
 </script>
 
+
+<script>
+function show_text()
+{
+var x=
+'<a href="ac_2.php" class="transition"><img src="assets/next_o.png" width="19" height="19" alt="continue" name="continue"></a>  <sup> NEXT</sup>'
+document.getElementById("show_text").innerHTML="Thank You for Consenting to the Expirement. Click Continue"
+document.getElementById("submit_hide").style.visibility=("visible");
+            
+
+}
+</script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({left:'250px'});
+  });
+});
+</script> 
 <script>
 $(function() 
 {
@@ -64,14 +90,14 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
     <h3>Informed Consent</h3>
   </header>
    <article class="content">
-   <div class="consent_box">
-<form action="ac_1.php" method="post" id="consent_form">
+<div class="consent_box">
+<form method="post" id="consent_form">
 <bdi><p>Teachers College, Columbia University
     <br>
     Principal Investigator: Dr. Barbara Tversky</p>
   <p> Research Title: Indexing Works of Art Along Two Indices</p>
 </bdi>
-<p class="bold_text">PARTICIPANTS RIGHTS<br />
+<p>PARTICIPANTS RIGHTS<br />
   <br />
   
   
@@ -82,7 +108,7 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
   <br />
   
   My participation in research is voluntary. I may refuse to participate or withdraw
-  from participation at any time without jeopardy.  </p>
+  from participation at any time without jeopardy.  </span></p>
 <p>The researcher may withdraw me from the research at his/her professional
   discretion.
   
@@ -102,20 +128,19 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
   
   I should receive a copy of the Research Description and this Participant's Rights
   document.</p>
-<p> If this observation is to be video/audio-taped:</p>
+ If this observation is to be video/audio-taped:
 <p>I, 
-  <input name="consent_name_video" type="text" id="consent_name_video" value="" size="30" maxlength="30" onFocus="this.className='currentField'" onChange="this.clasName='changedField'" />
+  <input name="consent_name_video" type="text" id="consent_name_video" value="<?php $_POST['fname']; ?>" size="30" maxlength="30" onFocus="this.className='currentField'" onChange="this.clasName='changedField'" />
 <br>
 
 <input type="radio" name="consent-radios" value="1" id="consent-radios_0" onFocus="this.className='currentField'" onChange="this.clasName='changedField'">
-   
-  <span class="bold_text">Consent</span></label>
-  <span class="bold_text">
-  to be video/audio taped.</span><br />
-  <input type="radio" name="consent-radios" value="0" id="consent-radios_0" onFocus="this.className='currentField'" onChange="this.clasName='changedField'">
+Consent</label>
+  
+  to be video/audio taped.<br />
+  <input type="radio" name="consent-radios" value="0" id="consent-radios_0" onFocus="this.className='currentField'" onChange="this.clasName='changedField'" onClick="confirm('If you do not consent to this expirement please quit now. Thank you.')">
     
-      <span class="bold_text">Do NOT Consent</span></label>
-  <span class="bold_text">
+      <span> Do NOT Consent</span></label>
+  <span>
   to be video/audio taped. </span><br />
   <br />
   The written and audio-taped materials will be viewed only by the principal
@@ -123,15 +148,15 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
   audio taped materials may be viewed in university classrooms, meetings of
   professional associations or other similar settings after efforts have been made to
   preserve my anonymity.  </p>
-<p class="bold_text">My signature means that I agree to participate in this study. By filling out the form
+<p>My signature means that I agree to participate in this study. By filling out the form
   field below I am providing my digital signature authorizing my participation in this
   study.  </p>
-<p><span class="bold_text"><span class="form-labels">Participant's Signature and Date:</span></span> <br>
+<p>Participant's Signature and Date: <br>
   <input name="consent_name_signature" type="text" id="consent_name_signature" value="" size="30" maxlength="30" onFocus="this.className='currentField'" onChange="this.clasName='changedField'" /> 
   <input type="text" class="datepicker2" onFocus="this.className='currentField'" onChange="this.clasName='changedField'" value="<?php echo $_SESSION['date'];?>">
   <br>
   <br>
-  Investigator's Verification of Explanation: The investigator has carefully explained the purpose and nature of this research to me,  <br>
+  Investigator's Verification of Explanation: The investigator has carefully explained the purpose and nature of this research to me,<br>
   <input name="consent_explained" type="text" id="consent_explained" value='' size="30" maxlength="30" onFocus="this.className='currentField'" onChange="this.clasName='changedField'" />
  in age-appropriate language.</p>
 </p>
@@ -145,18 +170,32 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
 </p>
 <address>
 <p> TEACHERS COLLEGE, COLUMBIA UNIVERSITY  <br />
-  INSTITUTIONAL REVIEW BOARD
+  INSTITUTIONAL REVIEW BOARD</address>
   Protocol #<br />
 Consent form approved until</p>
-<p>
-  <input type="submit" name="submit_consent" id="submit_consent" value="Submit">
+<p class="shoot_me">
+  <input type="button" name="submit_consent" id="submit_consent" value="Submit" onClick="show_text();">
 </p>
-</address></p>
-  <footer>
-    
-  </footer>
-  <!-- end .container --></div>
-  <!--<p><input type="image" name="submit" id="continue" value="Start" src="assets/next_o.png" width="20" height="20" id="age" /><sup> continue</sup>-->
-</p> </form>
+
+
+  
+  <!-- end .container --><!--<p><input type="image" name="submit" id="continue" value="Start" src="assets/next_o.png" width="20" height="20" id="age" /><sup> continue</sup>-->
+</form><br>
+<br>
+<br>    
+
+<br>
+</p>
+</div>
+<p id="show_text">
+</p>
+<div class="welcome_arrow" id="submit_hide"><a href="ac_1.php">
+<input type="image" name="submit" id="continue" value="Start" src="assets/next_o.jpg" width="20" height="20" /><sup> continue</sup></a></div>
 </body>
 </html>
+<?php
+/*}
+else{
+    header('Location: index.php');
+}*/
+?>
